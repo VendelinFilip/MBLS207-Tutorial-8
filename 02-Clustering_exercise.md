@@ -17,18 +17,11 @@ To prevent the pollution from spreading into surrounding groundwater, the ground
 
 &lt;img&gt;Figure 2. A. Schematic overview of the Griftpark Groundwater Treatment Pipeline (GWTP). Groundwater from the contaminated soil (ft30) is gathered in a collection basin, which is infused with small amounts of oxygen (p2) and pumped over 3km (about three hours) to a treatment plant. The groundwater enters via the influent buffer (p4), where it is inoculated with water from the sludge thickener (p7), which is located at the end of the treatment plant. Then, the water proceeds to the aeration tank (p5), where the water is oxygenated and most of the contaminants get removed. After passing into an overflow (p6), the water then enters the settling tank, where water is left to settle. The sludge phase is pumped into the sludge thickener (p7), while the water phase undergoes treatment via sand filters (SF) and activated carbon (AC) before entering the sludge thickener as well. Finally, a portion of the sludge from the sludge thickener is pumped back into the influent buffer, while the remainder is sufficiently remediated to allow discharge into the communal wastewater influent. Seven sampled points are indicated with colored arrows.&lt;/img&gt;
 
-In today’s Tutorial, we will work with the data from the Griftpark to get more information about different types of microorganisms that are able to degrade pollutants (i.e. break them down to non-toxic molecules), such as aromatic hydrocarbons/oil. This data is a very good example of environmental metagenomic data: samples were taken from the environment, in this case groundwater, DNA from all microorganisms was extracted, and the extracted DNA was
-
----
-
-
-## Page 4
-
-sequenced. You will use some bioinformatics to find patterns and clusters in the data and try to understand how the samples from different points are similar or different.
+In today’s Tutorial, we will work with the data from the Griftpark to get more information about different types of microorganisms that are able to degrade pollutants (i.e. break them down to non-toxic molecules), such as aromatic hydrocarbons/oil. This data is a very good example of environmental metagenomic data: samples were taken from the environment, in this case groundwater, DNA from all microorganisms was extracted, and the extracted DNA was sequenced. You will use some bioinformatics to find patterns and clusters in the data and try to understand how the samples from different points are similar or different.
 
 The first, and one of the most important parts of any bioinformatics study is getting to know your dataset.
 
-a. Download the file griftpark_5taxa.csv and load it into a jupyter notebook.
+a. Download the file griftpark_5taxa.csv [here](griftpark_5taxa.csv) and load it into a jupyter notebook.
 
 ```python
 import pandas as pd
